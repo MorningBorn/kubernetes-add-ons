@@ -65,7 +65,7 @@ data:
         prometheus :9153
         proxy . /etc/resolv.conf
         #添加自己私有的dns域以及对应的dns服务器地址
-        proxy miaokecloud.com 18.18.0.125
+        proxy morning.com 10.10.0.125
         cache 30
         reload
     }
